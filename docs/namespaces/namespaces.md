@@ -6,7 +6,7 @@ kubectl get namespaces
 
 ### Create Namespace in K8s
 
-`smol` snippet that creates a namespace of a desired name:
+A `smol` snippet that creates a namespace of a desired name:
 
 ```
 NAME=proxy-training
@@ -21,6 +21,8 @@ metadata:
   labels:
     name: ${NAME}
 EOF
+
+kubectl create -f namespace-${NAME}.yaml
 ```
 
 ### Switch to a namespace
