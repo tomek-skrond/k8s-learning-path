@@ -11,3 +11,5 @@ This repository is my space for documenting:
 during my development on kubernetes related topics
 
 Enjoy ;)
+
+If you want to try out kubernetes (and not get stomped by installation), check out my repo [kube-provisioning-scripts](https://github.com/tomek-skrond/kube-provisioning-scripts) (for now available only for Linux users).
