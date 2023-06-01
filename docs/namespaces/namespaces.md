@@ -6,7 +6,7 @@ NAME=proxy-training
 
 touch namespace-${NAME}.yaml
 
-cat namespace-${NAME}.yaml<<EOF
+cat >namespace-${NAME}.yaml<<EOF
 apiVersion: v1
 kind: Namespace
 metadata:
