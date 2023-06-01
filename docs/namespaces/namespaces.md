@@ -1,5 +1,12 @@
+### Show namespace
+
+```
+kubectl get namespaces
+```
 
 ### Create Namespace in K8s
+
+`smol` snippet that creates a namespace of a desired name:
 
 ```
 NAME=proxy-training
