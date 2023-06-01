@@ -1,0 +1,2 @@
+$ kubectl --context my-context -n my-namespace delete deployment my-deployment
+https://theboreddev.com/how-to-destroy-a-kubernetes-deployment/
