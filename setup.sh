@@ -1,7 +1,7 @@
 #!/bin/bash
 
 WORKDIR=$(pwd)
-EDITOR=vim
+EDITOR=nano
 
 sudo ln -s /usr/local/bin/namespaces-docs ${WORKDIR}/docs/namespaces/namespaces.md
 sudo ln -s /usr/local/bin/helm-docs ${WORKDIR}/docs/helm/helm.md

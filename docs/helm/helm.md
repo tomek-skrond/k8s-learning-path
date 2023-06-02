@@ -64,3 +64,20 @@ APP VERSION: 2.8.0
 ```
 helm get manifest haproxy-charts
 ```
+
+
+### Create helm chart
+```
+helm create webapp1
+```
+
+### Install helm release with values
+```
+helm install mywebapp-release webapp1/ --values mywebapp/values.yaml
+```
+
+
+### Upgrade release
+```
+helm upgrade mywebapp-release webapp1/ --values webapp1/values.yaml
+```

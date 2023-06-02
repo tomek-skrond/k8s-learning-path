@@ -1,0 +1,12 @@
+appName: myhelmapp
+
+namespace: training
+
+configMap:
+  name: myconfigmapv1.0
+  data:
+    CUSTOM_HEADER: "Hello world from HELM!!!"
+
+containers:
+  image: devopsjourney1/webapp
+  tag: latest
